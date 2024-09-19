@@ -54,8 +54,8 @@ class MainActivity : AppCompatActivity() {
         idTVQuestion.text = question
         etQuestion.setText("")
 
-        val apiKey = "1ff646be54f34f98a3b317d7438887d6"  // Replace with your actual Azure OpenAI API key
-        val url = "https://chatbot-ccc0609.openai.azure.com/openai/deployments/chatbot-ccc0609/chat/completions?api-version=2023-03-15-preview"
+        val apiKey = " "  // Replace with your actual Azure OpenAI API key
+        val url = " "
 
         // Request body for Azure OpenAI
         val requestBody = """
